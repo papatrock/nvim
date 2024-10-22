@@ -1,0 +1,13 @@
+return {
+'https://github.com/nvim-telescope/telescope.nvim',
+lazy = false, -- se falso, é carregado ao iniciar o nvim
+event = str, -- carrega plugin apenas neste evento
+dependencie = {
+    -- plugins de dependência se necessario
+    
+ },
+
+config = function ()
+    -- código a ser rodado ao carregar plugin
+    end,
+}
